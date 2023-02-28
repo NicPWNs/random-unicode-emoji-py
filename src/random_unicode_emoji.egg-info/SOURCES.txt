@@ -1,9 +1,0 @@
-LICENSE.rst
-README.rst
-pyproject.toml
-setup.cfg
-setup.py
-src/random_unicode_emoji.egg-info/PKG-INFO
-src/random_unicode_emoji.egg-info/SOURCES.txt
-src/random_unicode_emoji.egg-info/dependency_links.txt
-src/random_unicode_emoji.egg-info/top_level.txt
