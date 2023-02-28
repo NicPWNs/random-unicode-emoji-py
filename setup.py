@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='random_unicode_emoji',
-    version='1.0',
+    version='1.1',
     license='MIT',
     author="Nic Jones",
     author_email='nic@nicpjones.com',
