@@ -8,7 +8,9 @@ Usage
 =====
 
 Import::
+
     import random-unicode-emoji
 
 Function::
+
     emoji = random_emoji()
