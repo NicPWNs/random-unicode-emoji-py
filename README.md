@@ -22,7 +22,7 @@ pip install random-unicode-emoji
 
 ```py
 # Import the Library
-from random_unicode_emoji import random_unicode_emoji
+from random_unicode_emoji import random_emoji
 # Use the Function
 print(random_emoji())
 ```

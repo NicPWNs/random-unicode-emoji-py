@@ -10,19 +10,15 @@ __version__ = '1.3'
 __doc__ = """
 Random Unicode Emoji
 ====================
-
-Description
------------
-
 A simple Python package to retrieve a random Unicode emoji.
-
+Install
+-------
+>>> pip install random-unicode-emoji
 
 Usage
 -----
-
 >>> # Import the Library
->>> import random_unicode_emoji
+>>> from random_unicode_emoji import random_emoji
 >>> # Use the Function
->>> emoji = random_emoji()
-
+>>> print(random_emoji())
 """
