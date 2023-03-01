@@ -1,7 +1,7 @@
 import setuptools
 import re
 
-VERSIONFILE="src/random_emoji/__init__.py"
+VERSIONFILE="random_emoji/__init__.py"
 getversion = re.search( r"^__version__ = ['\"]([^'\"]*)['\"]", open(VERSIONFILE, "rt").read(), re.M)
 if getversion:
     new_version = getversion.group(1)
@@ -20,7 +20,6 @@ with open("README.rst", "r") as r:
         description='A simple Python package to retrieve a random Unicode emoji. 😄',
         long_description=long_description,
         packages=setuptools.find_packages(),
-        package_dir={'': 'src'},
         url='https://github.com/NicPWNs/random-unicode-emoji',
         download_url ='https://github.com/NicPWNs/random-unicode-emoji/releases',
         keywords='random unicode emoji',
