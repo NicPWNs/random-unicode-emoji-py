@@ -14,7 +14,7 @@ Random Unicode Emoji
 Description
 -----------
 
-A simple Python package to retrieve a random Unicode emoji. 😄
+A simple Python package to retrieve a random Unicode emoji.
 
 
 Usage
