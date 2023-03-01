@@ -11,6 +11,6 @@ Usage
 -----
 
 >>> # Import the Library
->>> import random-unicode-emoji
+>>> import random_unicode_emoji
 >>> # Use the Function
 >>> emoji = random_emoji()
