@@ -43,4 +43,4 @@ def random_emoji():
     # Return Emoji
     emoji = chr(ord(emojiSet[0]) + indexRange)
 
-    return (emoji)
+    return emoji
