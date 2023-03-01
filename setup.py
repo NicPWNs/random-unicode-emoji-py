@@ -8,7 +8,7 @@ if getversion:
 else:
     raise RuntimeError("Unable to find version string in %s." % (VERSIONFILE,))
 
-with open("README.md", "r") as r:
+with open("README.md", "r", encoding="utf-8") as r:
     long_description = r.read()
     setuptools.setup(
         name='random_unicode_emoji',
