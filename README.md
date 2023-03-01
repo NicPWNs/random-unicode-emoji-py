@@ -12,7 +12,7 @@
 
 A Python package and function to retrieve a random Unicode emoji. 😄
 
-> Like this repo? Give it a [☆ on GitHub!](https://github.com/NicPWNs/random_unicode_emoji)
+> Like this repo? Give it a [★ on GitHub!](https://github.com/NicPWNs/random_unicode_emoji)
 
 ## Install
 
