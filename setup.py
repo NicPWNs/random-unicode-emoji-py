@@ -19,8 +19,14 @@ with open("README.rst", "r") as r:
         author_email='nic@nicpjones.com',
         description='A simple Python package to retrieve a random Unicode emoji. 😄',
         long_description=long_description,
+        long_description_content_type="text/markdown",
         packages=setuptools.find_packages(),
         url='https://github.com/NicPWNs/random-unicode-emoji',
         download_url ='https://github.com/NicPWNs/random-unicode-emoji/releases',
         keywords='random unicode emoji',
+        classifiers=[
+            "Programming Language :: Python :: 3",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+        ],
     )
