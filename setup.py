@@ -10,6 +10,9 @@ else:
 
 with open("README.md", "r", encoding="utf-8") as r:
     long_description = r.read()
+    long_description = re.sub("⭐", "star", long_description)
+    long_description = re.sub("😄", "", long_description)
+
     setuptools.setup(
         name='random_unicode_emoji',
         python_requires='>=3',
