@@ -7,7 +7,7 @@
 [![Open Issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji.svg)](https://github.com/NicPWNs/random-unicode-emoji/issues)
 [![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 [![Downloads](https://pepy.tech/badge/random-unicode-emoji)](https://pepy.tech/project/random-unicode-emoji)
-![GitHub repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji)
+[![GitHub Repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random_unicode_emoji)
 [![GitHub Repo stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji)](https://github.com/NicPWNs/random_unicode_emoji/stargazers)
 
 A simple Python package to retrieve a random Unicode emoji. 😄
