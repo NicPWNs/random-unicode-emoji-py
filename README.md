@@ -12,6 +12,8 @@
 
 A simple Python package to retrieve a random Unicode emoji. 😄
 
+Like this repo? Give it a on [GitHub! ⭐](https://github.com/NicPWNs/random_unicode_emoji)
+
 ## Install
 
 ```bash
@@ -27,7 +29,17 @@ from random_unicode_emoji import random_emoji
 print(random_emoji())
 ```
 
-Like this repo? Give it a on [GitHub! ⭐](https://github.com/NicPWNs/random_unicode_emoji)
+## Unicode
+
+**Uses Unicode Standard [Version 15.0](https://www.unicode.org/charts/#symbols)**
+_Pulls emojis from the following Unicode character sets:_
+
+- [Miscellaneous Symbols](https://www.unicode.org/charts/PDF/U2600.pdf)
+- [Miscellaneous Symbols and Pictographs](https://www.unicode.org/charts/PDF/U1F300.pdf)
+- [Emoticons](https://www.unicode.org/charts/PDF/U1F600.pdf)
+- [Transport and Map Symbols](https://www.unicode.org/charts/PDF/U1F680.pdf)
+- [Supplemental Symbols and Pictographs](https://www.unicode.org/charts/PDF/U1F900.pdf)
+- [Symbols and Pictographs Extended-A](https://www.unicode.org/charts/PDF/U1FA70.pdf)
 
 ## Maintainer
 
