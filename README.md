@@ -24,7 +24,7 @@ pip install random-unicode-emoji
 # Import the Library
 from random_unicode_emoji import random_unicode_emoji
 # Use the Function
-emoji = random_emoji()
+print(random_emoji())
 ```
 
 Like this repo? Give it a on [GitHub! ⭐](https://github.com/NicPWNs/random_unicode_emoji)
