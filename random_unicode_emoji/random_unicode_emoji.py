@@ -3,10 +3,10 @@ from bisect import bisect
 from random import randrange
 from itertools import accumulate
 
-# Unicode Version 15.0
+# Unicode Standard Version 15.0
 # https://www.unicode.org/charts/#symbols
 
-EMOJI_RANGES_UNICODE = [
+UNICODE_EMOJI_RANGES = [
     # https://www.unicode.org/charts/PDF/U2600.pdf
     ('\U00002600', '\U000026FF'),
     # https://www.unicode.org/charts/PDF/U1F300.pdf
@@ -25,22 +25,22 @@ EMOJI_RANGES_UNICODE = [
 def random_emoji():
 
     # Weighted distribution
-    count = [ord(r[-1]) - ord(r[0]) + 1 for r in EMOJI_RANGES_UNICODE]
+    count = [ord(r[-1]) - ord(r[0]) + 1 for r in UNICODE_EMOJI_RANGES]
     weightDist = list(accumulate(count))
 
     # Get one index in the multiple ranges
     indexIndex = randrange(weightDist[-1])
 
-    # Select the correct range
+    # Select the correct character set
     emojiIndex = bisect(weightDist, indexIndex)
-    emojiRange = EMOJI_RANGES_UNICODE[emojiIndex]
+    emojiSet = UNICODE_EMOJI_RANGES[emojiIndex]
 
-    # Calculate the index in the selected range
+    # Calculate the index in the selected character set
     indexRange = indexIndex
     if emojiIndex != 0:
         indexRange = indexIndex - weightDist[emojiIndex - 1]
 
-    # Emoji
-    emoji = chr(ord(emojiRange[0]) + indexRange)
+    # Return Emoji
+    emoji = chr(ord(emojiSet[0]) + indexRange)
 
     return (emoji)

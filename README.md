@@ -12,7 +12,7 @@
 
 A simple Python package to retrieve a random Unicode emoji. 😄
 
-> Like this repo? Give it a on [GitHub! ⭐](https://github.com/NicPWNs/random_unicode_emoji)
+> Like this repo? Give it a [⭐ on GitHub!](https://github.com/NicPWNs/random_unicode_emoji)
 
 ## Install
 
@@ -32,6 +32,7 @@ print(random_emoji())
 ## Unicode
 
 **Uses Unicode Standard [Version 15.0](https://www.unicode.org/charts/#symbols)**
+
 _Pulls emojis from the following Unicode character sets:_
 
 - [Miscellaneous Symbols](https://www.unicode.org/charts/PDF/U2600.pdf)
@@ -44,3 +45,7 @@ _Pulls emojis from the following Unicode character sets:_
 ## Maintainer
 
 [Nic Jones, (NicPWNs)](https://github.com/NicPWNs)
+
+## References
+
+Inspired by: [randomEmoji.py](https://gist.github.com/shello/efa2655e8a7bce52f273)
