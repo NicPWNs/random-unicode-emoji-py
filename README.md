@@ -27,20 +27,19 @@ pip install random-unicode-emoji
 from random_unicode_emoji import random_emoji
 # Use the Function
 print(random_emoji())
+# Use Specific Version
+print(random_emoji(version="14.0"))
 ```
 
 ## Unicode
 
-**Uses Unicode Standard [Version 15.0](https://www.unicode.org/charts/#symbols)**
+**Uses Unicode Standard Emoji from https://www.unicode.org/Public/emoji/**
 
-_Pulls emojis from the following Unicode character sets:_
+### Supported Versions
 
-- [Miscellaneous Symbols](https://www.unicode.org/charts/PDF/U2600.pdf)
-- [Miscellaneous Symbols and Pictographs](https://www.unicode.org/charts/PDF/U1F300.pdf)
-- [Emoticons](https://www.unicode.org/charts/PDF/U1F600.pdf)
-- [Transport and Map Symbols](https://www.unicode.org/charts/PDF/U1F680.pdf)
-- [Supplemental Symbols and Pictographs](https://www.unicode.org/charts/PDF/U1F900.pdf)
-- [Symbols and Pictographs Extended-A](https://www.unicode.org/charts/PDF/U1FA70.pdf)
+4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, and latest=15.0
+
+Default: _Uses latest version by default._
 
 ## Maintainer
 

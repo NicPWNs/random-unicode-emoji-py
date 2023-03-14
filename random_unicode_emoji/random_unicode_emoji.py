@@ -1,46 +1,26 @@
 #!/usr/bin/env python3
-from bisect import bisect
-from random import randrange
-from itertools import accumulate
-
-# Unicode Standard Version 15.0
-# https://www.unicode.org/charts/#symbols
-
-UNICODE_EMOJI_RANGES = [
-    # https://www.unicode.org/charts/PDF/U2600.pdf
-    ('\U00002600', '\U000026FF'),
-    # https://www.unicode.org/charts/PDF/U1F300.pdf
-    ('\U0001F300', '\U0001F5FF'),
-    # https://www.unicode.org/charts/PDF/U1F600.pdf
-    ('\U0001F600', '\U0001F64F'),
-    # https://www.unicode.org/charts/PDF/U1F680.pdf
-    ('\U0001F680', '\U0001F6FF'),
-    # https://www.unicode.org/charts/PDF/U1F900.pdf
-    ('\U0001F900', '\U0001F9FF'),
-    # https://www.unicode.org/charts/PDF/U1FA70.pdf
-    ('\U0001FA70', '\U0001FAFF'),
-]
+import os
+import random
 
 
-def random_emoji():
+def random_emoji(version="latest"):
 
-    # Weighted distribution
-    count = [ord(r[-1]) - ord(r[0]) + 1 for r in UNICODE_EMOJI_RANGES]
-    weightDist = list(accumulate(count))
+    # Unicode Standard Emoji from
+    # https://www.unicode.org/Public/emoji/
 
-    # Get one index in the multiple ranges
-    indexIndex = randrange(weightDist[-1])
+    try:
+        with open(rf"./emoji/{version}/emoji-test.txt", 'r', encoding='utf-8') as f:
+            lines = [line for line in f.readlines() if line.strip() and not line.startswith("#")]
+    except:
+        versions = (os.listdir("./emoji"))
+        print(f"Unicode version \"{version}\" is not supported. The following versions are currently supported:\n{', '.join(versions)}")
+        exit()
 
-    # Select the correct character set
-    emojiIndex = bisect(weightDist, indexIndex)
-    emojiSet = UNICODE_EMOJI_RANGES[emojiIndex]
+    emojiHex = random.choice(lines).split(';', 1)[0].strip().split()
 
-    # Calculate the index in the selected character set
-    indexRange = indexIndex
-    if emojiIndex != 0:
-        indexRange = indexIndex - weightDist[emojiIndex - 1]
+    emoji = ""
 
-    # Return Emoji
-    emoji = chr(ord(emojiSet[0]) + indexRange)
+    for octet in emojiHex:
+        emoji += chr(int("0x" + octet, 16))
 
     return emoji
