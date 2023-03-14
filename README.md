@@ -47,4 +47,4 @@ Uses Unicode Standard Emoji from [unicode.org](https://www.unicode.org/Public/em
 
 ## References
 
-Inspired by [randomEmoji.py](https://gist.github.com/shello/efa2655e8a7bce52f273)
+Originally Inspired by [randomEmoji.py](https://gist.github.com/shello/efa2655e8a7bce52f273)
