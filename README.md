@@ -20,6 +20,8 @@ A Python package and function to retrieve a random Unicode emoji. ❤️
 pip install random-unicode-emoji
 ```
 
+> No dependencies!
+
 ## Usage
 
 ```py
