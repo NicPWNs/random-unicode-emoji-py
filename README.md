@@ -37,9 +37,9 @@ Uses Unicode Standard Emoji from [unicode.org](https://www.unicode.org/Public/em
 
 ### Supported Versions
 
-> 4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, and latest=15.0
+4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, and latest=15.0
 
-Default: _Uses latest version by default._
+> Default: _Uses latest version by default._
 
 ## Maintainer
 
