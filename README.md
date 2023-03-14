@@ -16,6 +16,8 @@ A Python package and function to retrieve a random Unicode emoji. ❤️
 
 ## Install
 
+Install the package:
+
 ```bash
 pip install random-unicode-emoji
 ```
@@ -23,6 +25,8 @@ pip install random-unicode-emoji
 > No dependencies!
 
 ## Usage
+
+Use the package:
 
 ```py
 # Import the Library
@@ -35,7 +39,7 @@ print(random_emoji(version="14.0"))
 
 ## Upgrade
 
-Upgrade to the latest version:
+Upgrade to the latest package version:
 
 ```bash
 pip install random-unicode-emoji -U
@@ -43,11 +47,11 @@ pip install random-unicode-emoji -U
 
 ## Unicode
 
-Uses Unicode Standard Emoji from [unicode.org](https://www.unicode.org/Public/emoji/)
+Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/emoji/)
 
-### Supported Versions
+### Supported Unicode Versions
 
-4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, and latest=15.0
+4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0 (latest)
 
 > _Uses latest version by default._
 
