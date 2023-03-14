@@ -34,12 +34,12 @@ from random_unicode_emoji import random_emoji
 # Use the Function
 print(random_emoji())
 # Use Specific Version
-print(random_emoji(version="14.0"))
+print(random_emoji(version="15.0"))
 ```
 
 ## Upgrade
 
-Upgrade to the latest package version:
+Upgrade the package to the version:
 
 ```bash
 pip install random-unicode-emoji -U
