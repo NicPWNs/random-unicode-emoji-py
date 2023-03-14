@@ -31,6 +31,14 @@ print(random_emoji())
 print(random_emoji(version="14.0"))
 ```
 
+## Upgrade
+
+> Upgrade to the latest version.
+
+```bash
+pip install random-unicode-emoji -U
+```
+
 ## Unicode
 
 Uses Unicode Standard Emoji from [unicode.org](https://www.unicode.org/Public/emoji/)
