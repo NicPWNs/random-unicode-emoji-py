@@ -33,7 +33,7 @@ print(random_emoji(version="14.0"))
 
 ## Unicode
 
-**Uses Unicode Standard Emoji from https://www.unicode.org/Public/emoji/**
+Uses Unicode Standard Emoji from [unicode.org](https://www.unicode.org/Public/emoji/)
 
 ### Supported Versions
 
