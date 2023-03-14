@@ -23,6 +23,7 @@ with open("README.md", "r", encoding="utf-8") as r:
         description='A Python package and function to retrieve a random Unicode emoji. \u2764',
         long_description=long_description,
         long_description_content_type="text/markdown",
+        include_package_data = True,
         packages=setuptools.find_packages(),
         url='https://github.com/NicPWNs/random-unicode-emoji',
         download_url ='https://github.com/NicPWNs/random-unicode-emoji/releases',
