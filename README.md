@@ -63,6 +63,6 @@ This is the Python 🐍 version. There is also a [JavaScript 📜 version.](http
 
 [Nic Jones, (NicPWNs)](https://github.com/NicPWNs)
 
-## References
+## Credit
 
 Originally Inspired by [randomEmoji.py](https://gist.github.com/shello/efa2655e8a7bce52f273)
