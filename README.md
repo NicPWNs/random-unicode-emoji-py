@@ -1,14 +1,14 @@
 # random-unicode-emoji (Python 🐍)
 
-[![Python](https://img.shields.io/pypi/pyversions/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
-[![PyPI Version](https://img.shields.io/pypi/v/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
-[![Downloads](https://pepy.tech/badge/random-unicode-emoji)](https://pepy.tech/project/random-unicode-emoji)
-[![GitHub Repo stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji-py)](https://github.com/NicPWNs/random-unicode-emoji-py/stargazers)
-[![Forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/forks)
-[![GitHub Repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji-py)](https://github.com/NicPWNs/random-unicode-emoji-py)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/blob/main/LICENSE.rst)
-[![Open Issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/issues)
-[![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![python](https://img.shields.io/pypi/pyversions/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
+[![pypi](https://img.shields.io/pypi/v/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
+[![downloads](https://pepy.tech/badge/random-unicode-emoji)](https://pepy.tech/project/random-unicode-emoji)
+[![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji-py)](https://github.com/NicPWNs/random-unicode-emoji-py/stargazers)
+[![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/forks)
+[![repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji-py)](https://github.com/NicPWNs/random-unicode-emoji-py)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/blob/main/LICENSE.rst)
+[![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/issues)
+[![repo status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 A Python package and function to retrieve a random Unicode emoji. ❤️
 
