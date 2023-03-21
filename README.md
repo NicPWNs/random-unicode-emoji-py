@@ -1,4 +1,4 @@
-# Random Unicode Emoji
+# Random Unicode Emoji (Python 🐍)
 
 [![Python](https://img.shields.io/pypi/pyversions/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
 [![PyPI Version](https://img.shields.io/pypi/v/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
