@@ -1,4 +1,4 @@
-# random-unicode-emoji (Python 🐍)
+# random-unicode-emoji
 
 [![python](https://img.shields.io/pypi/pyversions/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
 [![pypi](https://img.shields.io/pypi/v/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
@@ -54,6 +54,10 @@ Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/em
 4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0 (latest)
 
 > _Uses latest version by default._
+
+## Language
+
+This is the Python 🐍 version. There is also a [JavaScript 📜 version.](https://github.com/NicPWNs/random-unicode-emoji)
 
 ## Maintainer
 
