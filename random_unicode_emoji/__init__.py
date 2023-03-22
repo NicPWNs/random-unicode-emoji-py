@@ -25,9 +25,9 @@ Use the package:
 >>> # Use Specific Version
 >>> print(random_emoji(version="15.0"))
 >>> # Append Custom Emoji
->>> print(random_emoji(custom=['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻━┻']))
+>>> print(random_emoji(custom=['X.X',':D']))
 >>> # All Together Now
->>> print(random_emoji(3, 15, ['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻━┻']))
+>>> print(random_emoji(3, 15, ['X.X',':D']))
 
 Upgrade
 -------
