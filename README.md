@@ -39,7 +39,7 @@ print(random_emoji(version="15.0"))
 
 ## Upgrade
 
-Upgrade the package to the version:
+Upgrade the package to the latest version:
 
 ```bash
 pip install random-unicode-emoji -U
