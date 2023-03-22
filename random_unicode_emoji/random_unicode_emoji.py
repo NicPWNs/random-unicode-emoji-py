@@ -3,7 +3,7 @@ import os
 import random
 
 
-def random_emoji(version="latest"):
+def random_emoji(count=1, version="latest", custom=[]):
 
     dirname = os.path.dirname(__file__)
 
@@ -17,15 +17,26 @@ def random_emoji(version="latest"):
 
     try:
         with open(os.path.join(dirname, f"./emoji/{version}/emoji-test.txt"), 'r', encoding='utf-8') as f:
-            lines = [line for line in f.readlines() if line.strip() and not line.startswith("#")]
+            lines = [line.split(';', 1)[0].strip().split() for line in f.readlines() if line.strip() and not line.startswith("#")]
     except FileNotFoundError:
         versions = (os.listdir(os.path.join(dirname, './emoji')))
-        print(f"Unicode version \"{version}\" is not supported. The following versions are currently supported:\n{', '.join(versions)}")
+        print(f"Unicode version \"{version}\" is not supported. The following versions are supported:\n{', '.join(versions)}")
         exit()
 
-    emoji = ""
+    unicode = []
 
-    for octet in random.choice(lines).split(';', 1)[0].strip().split():
-        emoji += chr(int("0x" + octet, 16))
+    for line in lines:
+        emoji = ""
+        for octet in line:
+            emoji += chr(int("0x" + octet, 16))
+        unicode.append(emoji)
 
-    return emoji
+    emojiSet = unicode + custom
+    emojis = []
+
+    for _ in range(0, count):
+        emojis.append(random.choice(emojiSet))
+
+    return emojis
+
+print(random_emoji(3, 15, ['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻━┻']))

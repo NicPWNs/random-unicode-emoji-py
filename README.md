@@ -33,13 +33,19 @@ Use the package:
 from random_unicode_emoji import random_emoji
 # Use the Function
 print(random_emoji())
+# Return Specific Count
+print(random_emoji(count=3))
 # Use Specific Version
 print(random_emoji(version="15.0"))
+# Append Custom Emoji
+print(random_emoji(custom=['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻━┻']))
+# All Together Now
+print(random_emoji(3, 15, ['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻━┻']))
 ```
 
 ## Upgrade
 
-Upgrade the package to the version:
+Upgrade the package to the latest version:
 
 ```bash
 pip install random-unicode-emoji -U
