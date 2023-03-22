@@ -2,13 +2,13 @@
 
 [![python](https://img.shields.io/pypi/pyversions/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
 [![pypi](https://img.shields.io/pypi/v/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
+[![Unicode](https://img.shields.io/badge/Unicode-15.0-success)](https://www.unicode.org/Public/emoji/15.0/)
 [![downloads](https://pepy.tech/badge/random-unicode-emoji)](https://pepy.tech/project/random-unicode-emoji)
 [![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji-py)](https://github.com/NicPWNs/random-unicode-emoji-py/stargazers)
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/forks)
 [![repo size](https://img.shields.io/github/repo-size/NicPWNs/random-unicode-emoji-py)](https://github.com/NicPWNs/random-unicode-emoji-py)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/blob/main/LICENSE.rst)
 [![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/issues)
-[![repo status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 A simple Python package that returns random Unicode emojis. ❤️
 
