@@ -38,5 +38,3 @@ def random_emoji(count=1, version="latest", custom=[]):
         emojis.append(random.choice(emojiSet))
 
     return emojis
-
-print(random_emoji(3, 15, ['(° ͜ʖ ͡°)','(╯°□°)╯︵ ┻━┻']))
