@@ -10,7 +10,7 @@
 [![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/issues)
 [![repo status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
-A Python package and function to retrieve a random Unicode emoji. ❤️
+A simple Python package that returns random Unicode emojis. ❤️
 
 > Like this repo? Give it a [⭐ on GitHub!](https://github.com/NicPWNs/random-unicode-emoji-py)
 
