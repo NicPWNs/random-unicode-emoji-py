@@ -10,7 +10,7 @@
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/blob/main/LICENSE.rst)
 [![issues](https://img.shields.io/github/issues/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/issues)
 
-A simple Python package that returns random Unicode emojis. ❤️
+A simple Python package that returns random Unicode emojis. 🐍
 
 > Like this repo? Give it a [⭐ on GitHub!](https://github.com/NicPWNs/random-unicode-emoji-py)
 
@@ -63,7 +63,7 @@ Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/em
 
 ## Language
 
-This is the Python 🐍 version. There is also a [JavaScript 📜 version.](https://github.com/NicPWNs/random-unicode-emoji)
+This is the Python 🐍 version. There is also a [JavaScript 📜](https://github.com/NicPWNs/random-unicode-emoji) and [Rust ⚙️](https://github.com/NicPWNs/random-unicode-emoji-rs) version.
 
 ## Maintainer
 
