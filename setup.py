@@ -11,7 +11,6 @@ else:
 with open("README.md", "r", encoding="utf-8") as r:
     long_description = r.read()
     long_description = re.sub("\u2B50", "star", long_description)
-    long_description = re.sub("\u2764", "", long_description)
 
     setuptools.setup(
         name='random_unicode_emoji',

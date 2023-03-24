@@ -2,7 +2,7 @@ from random_unicode_emoji.random_unicode_emoji import random_emoji
 
 __author__ = 'Nic Jones'
 __email__ = 'nic@nicpjones.com'
-__version__ = '2.7'
+__version__ = '2.8'
 __doc__ = """
 Random Unicode Emoji
 ====================
