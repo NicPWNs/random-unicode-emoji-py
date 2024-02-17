@@ -67,7 +67,7 @@ This is the Python 🐍 version. There is also a [JavaScript 📜](https://githu
 
 ## Maintainer
 
-[Nic Jones, (NicPWNs)](https://github.com/NicPWNs)
+[Nic Jones, (@NicPWNs)](https://github.com/NicPWNs)
 
 ## Credit
 
