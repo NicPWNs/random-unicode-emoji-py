@@ -57,7 +57,7 @@ Uses Unicode Standard Emoji from [Unicode.org](https://www.unicode.org/Public/em
 
 ### Supported Unicode Versions
 
-4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0 (latest)
+4.0, 5.0, 11.0, 12.0, 12.1, 13.0, 13.1, 14.0, 15.0, 15.1, 16.0 (latest)
 
 > _Uses latest version by default._
 
