@@ -2,7 +2,7 @@
 
 [![python](https://img.shields.io/pypi/pyversions/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
 [![pypi](https://img.shields.io/pypi/v/random-unicode-emoji)](https://pypi.org/project/random-unicode-emoji/)
-[![Unicode](https://img.shields.io/badge/Unicode-15.0-success)](https://www.unicode.org/Public/emoji/15.0/)
+[![Unicode](https://img.shields.io/badge/Unicode-16.0-success)](https://www.unicode.org/Public/emoji/16.0/)
 [![downloads](https://pepy.tech/badge/random-unicode-emoji)](https://pepy.tech/project/random-unicode-emoji)
 [![stars](https://img.shields.io/github/stars/NicPWNs/random-unicode-emoji-py)](https://github.com/NicPWNs/random-unicode-emoji-py/stargazers)
 [![forks](https://img.shields.io/github/forks/NicPWNs/random-unicode-emoji-py.svg)](https://github.com/NicPWNs/random-unicode-emoji-py/forks)
